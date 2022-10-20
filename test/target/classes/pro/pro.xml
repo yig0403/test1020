@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="pb" class="pro.PropertyBean">
+		<property name="addrs">
+			<props>
+				<prop key="고길동">성북구</prop>
+				<prop key="둘리">빙하</prop>
+				<prop key="또치">강남</prop>
+			</props>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.11.201912160804-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>bean01.xml</config>
+		<config>beans02.xml</config>
+		<config>src/main/java/samp06/beans06.xml</config>
+		<config>src/main/resources/beans07.xml</config>
+		<config>src/main/resources/beans08.xml</config>
+		<config>src/main/java/samp09/beans09.xml</config>
+		<config>src/main/java/samp10/beans10.xml</config>
+		<config>src/main/java/samp11/beans11.xml</config>
+		<config>src/main/java/samp12/beans12.xml</config>
+		<config>src/main/java/samp13/beans13.xml</config>
+		<config>src/main/java/samp14/beans14.xml</config>
+		<config>src/main/java/samp15/beans15.xml</config>
+		<config>src/main/java/list/list.xml</config>
+		<config>src/main/java/set/set.xml</config>
+		<config>src/main/java/map/map.xml</config>
+		<config>src/main/java/pro/pro.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
