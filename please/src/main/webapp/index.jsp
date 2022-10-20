@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-됫니? tq
-
+됫니? 야야야아아아
 </body>
 </html>
