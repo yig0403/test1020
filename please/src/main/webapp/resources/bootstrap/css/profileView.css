@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+ul li{
+	height:30px;
+	text-align: left;
+	list-style: none;
+	line-height: 50px;
+}
+.profileImg{
+	margin: 0 32px;
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 12px;
+}
+
+.profileId{
+	font-size: 20px;
+}
+.reviewDiv{
+	margin-top: 30px;
+}
+
+#img_box{
+	margin-top: 30px;
+}   
+
+table tr td:nth-child(1){
+	padding-left: 34px;
+}
+
+.review_table{
+	margin-top: -15px;
+}
+
+.glyphicon-heart{
+	font-size: 16px;
+	color: red;
+}
+.glyphicon-heart:hover {
+	text-decoration: none;
+	color: red;
+}
+.glyphicon-heart-empty{
+	font-size: 16px;
+	color: #000000;
+}
+.glyphicon-heart-empty:hover{
+	text-decoration: none;
+	color: red;
+}
+.glyphicon-envelope {	
+	font-size: 16px;
+	color: #3243A8;
+}
+.glyphicon-envelope:hover {
+	text-decoration: none;
+	color: black
+}
