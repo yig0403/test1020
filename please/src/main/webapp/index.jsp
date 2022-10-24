@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-됫니? 야야야아아아
+<script type="text/javascript">
+ //location.href="joinForm.do";
+ //location.href="updateForm.do";
+ location.href="loginForm.do";
+ 
+</script>
 </body>
 </html>
