@@ -9,8 +9,8 @@
 <body>
 <script type="text/javascript">
  //location.href="joinForm.do";
- //location.href="updateForm.do";
  location.href="loginForm.do";
+ //location.href="carList.do";
  
 </script>
 </body>

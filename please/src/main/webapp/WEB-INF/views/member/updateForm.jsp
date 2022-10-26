@@ -48,7 +48,7 @@
 		<td><input type="file" name="file">${member.mfilename }</td></tr>
 </table>		
 </form>
-<a href="main.do" class="btn btn-info">메인</a>
+<a href="myPage.do" class="btn btn-info">메인</a>
 </div>
 </body>
 </html>

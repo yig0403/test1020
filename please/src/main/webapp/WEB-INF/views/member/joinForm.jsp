@@ -152,6 +152,28 @@
 			}
 		}
 	}
+	
+	// 비밀번호 유효성 검사
+ 	$(function () {
+	// 1. 비밀번호와 비밀번호  일치 확인 ajax
+		$("#alert-success").hide();
+		$("#alert-danger").hide();
+		$("#password2").keyup(function() {
+			var password = $("#password").val();
+			var password2 = $("#password2").val();
+			if (password != "" || password2 != "") {
+				if (password == password2) {
+					$("#alert-success").show();
+					$("#alert-danger").hide();
+					/* $("#submit").attr('disabled', false); */
+				} else {
+					$("#alert-success").hide();
+					$("#alert-danger").show();
+					/* $("#submit").attr('disabled', true); */
+				}
+		    }
+       });
+	
 </script>
 
 </head>

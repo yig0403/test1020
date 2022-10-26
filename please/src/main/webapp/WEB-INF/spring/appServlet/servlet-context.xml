@@ -25,6 +25,7 @@
 			<mapping path="/updateForm.do"/>
 			<mapping path="/update.do"/>
 			<mapping path="/delete.do"/>
+		
 			
 			<beans:ref bean="sc"/>
 		</interceptor>

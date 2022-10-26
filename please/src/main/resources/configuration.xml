@@ -4,9 +4,11 @@
 <configuration>
 	<typeAliases>
 		<typeAlias alias="member" type="com.ch.please.model.Member" />
+		<typeAlias alias="car" type="com.ch.please.model.Car" />
 	</typeAliases>
 	<mappers>
 		<mapper resource="member.xml" />
+		<mapper resource="car.xml" />
 		
 	</mappers>
 </configuration>
