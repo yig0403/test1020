@@ -1,0 +1,212 @@
+textarea {
+  width:100%;
+}
+
+.textwrapper {
+  border:1px solid #999999;
+  margin:5px 0;
+  padding:3px;
+}
+
+button:focus {
+     outline: none;
+}
+
+.left{
+	 float: left;
+	 margin-right: 10px;
+}
+
+a:hover {
+    color: #fff;}
+
+
+button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:focus {
+    background: #136af8;
+    padding: 10 40px;
+}
+
+.btn_small {
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	margin-bottom: 0px;
+ }
+
+.choose_text{
+	width: 100%;
+	float: left;
+	text-align: center;
+	color: #030907;
+	font-weight: 600;
+
+}
+
+.choose_section_2{
+	width: 100%;
+	float: center;
+}
+table {
+	width :100%;
+}
+
+td.graphic {
+  width: 23%;
+}
+
+th.width {
+  width: 10%;
+}
+
+td.matching {
+	font-weight: bold;
+	color: #3243A8;
+	padding-top: 19px;
+	padding-bottom: 10px;
+}
+td.margintop {
+	padding-top: 11px;
+}
+
+tr.bordered {
+    border-bottom: 1px solid #000;
+}
+
+td.right {
+    text-align: right;
+}
+
+.power_full{
+	width: 100%;
+	background-color: #2aaf80;
+	border-radius: 30px;
+	padding: 20px;
+	box-shadow: 0px 0px 8px 0px;
+}
+
+.power{
+    display: flex;
+    width: 85%;
+    height: 410px;
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    padding: 20px;
+    /* box-shadow: 0px 0px 8px 0px; */
+    margin-bottom: 65px;
+}
+
+.icon{
+	text-align: center;
+	margin-top: 40px;
+}
+.powerful_text{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 20px;	
+	color: #ffffff;
+
+}
+
+.totaly_text{
+	width: 100%;
+	float: left;
+	text-align: left;
+	margin-top: 20px;	
+	color: #000;
+
+
+}
+
+.making_tetx{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 20px;	
+	color: #ffffff;
+	margin-left: 0;
+
+}
+
+.making{
+	width: 100%;
+	float: center;
+	text-align: center;
+	margin-top: 20px;	
+	color: #000;
+	margin-left: 0;
+
+}
+
+.read_bt{
+	height: 50px;
+    width: 100%;
+    border-radius: 11px;
+    border: 0px;
+    background: #3243A8;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #eee;
+    margin-bottom: 0px;
+}
+.read_bt a{
+	color: #eee;
+	padding-left: 15px;
+}
+
+.images{
+	margin: 30px;
+	width: 100%;
+    margin-left: 0px;
+}
+
+
+.bt_main{
+	width: 16%;
+	margin: 0 auto;
+	text-align: center;
+    margin-top: 45px;
+}
+
+
+.read_more{
+	height: 50px;
+    width: 100%;
+    float: left;
+    border-radius: 11px;
+    border: 0px;
+    color: #ffffff;
+    background-color: #000;
+    margin-top: 30px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}  
+
+.read_more a:hover{ color: #ffffff;}
+
+/* 타세요 목록 페이징 버튼을 3칸 차지하지 않아도 다음줄로 자동 줄바꿈하게 해줌 */	
+div.nextLine {
+	clear: both;
+}
+
+form.searchtag {
+	padding: 0px 0px 0px 40px;
+}
+
+div.formtag {
+	padding: 0px 40px 0px 0px;
+}
+
+.btn_sm_stroke {
+	margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+label {
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+input[type=date], input[type=time] {
+    line-height: 20px;
+}

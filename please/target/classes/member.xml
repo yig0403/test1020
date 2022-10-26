@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="memberns">
+
+    <select id="select" parameterType="string" resultType="member">
+		select * from member where id=#{id}
+	</select>
+	
+	<insert id="insert" parameterType="member">
+		insert into member values(#{id},#{password},#{name},#{address},#{tel},#{email},#{birth},#{gender},'n',sysdate,#{mfilename})
+	</insert>
+	<insert id="insertPhoto" parameterType="java.util.List">
+		insert all
+		<!-- foreach list에서 하니씩 데이터를 뽑아서 item넣어서 반복처리 -->
+		<foreach collection="list" item="item">
+			into memberphoto values 
+				(get_seq,#{item.id},#{item.mfilename})
+		</foreach>
+		select * from dual
+	</insert>
+
+    <update id="delete" parameterType="string">
+		update member set del='y' where id=#{id}
+	</update>
+
+</mapper>
