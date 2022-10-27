@@ -1,5 +1,5 @@
 drop table member;
- drop table member cascade constraint;
+drop table member cascade constraint;
 drop table car;
 drop table review;
 drop table charge;
