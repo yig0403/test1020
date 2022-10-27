@@ -1,3 +1,4 @@
+
 drop table member;
 drop table member cascade constraint;
 drop table car;
@@ -344,4 +345,5 @@ ALTER TABLE ways ADD CONSTRAINT FK_member_TO_ways_1 FOREIGN KEY (
 REFERENCES member (
 	id
 );
+
 

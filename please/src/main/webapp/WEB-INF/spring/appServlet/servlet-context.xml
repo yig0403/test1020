@@ -20,11 +20,12 @@
 	<beans:bean id="sc" class="com.ch.please.service.SessionChk"></beans:bean>
 	<interceptors>
 		<interceptor>
-			<mapping path="/main.do"/>
+			<mapping path="/myPage.do"/>
 			<mapping path="/view.do"/>
 			<mapping path="/updateForm.do"/>
 			<mapping path="/update.do"/>
 			<mapping path="/delete.do"/>
+		
 			
 			<beans:ref bean="sc"/>
 		</interceptor>
