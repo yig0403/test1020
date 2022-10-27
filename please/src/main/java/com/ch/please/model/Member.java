@@ -19,6 +19,7 @@ public class Member {
   private String del;             //삭제여부
   private Date regdate;           //가입일
   private String mfilename;       //면허증 사진
+  private String ad;
   
   //paging용
   private int startRow;
