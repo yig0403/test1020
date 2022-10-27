@@ -8,10 +8,9 @@
 </head>
 <body>
 <script type="text/javascript">
- //location.href="joinForm.do";
- location.href="loginForm.do";
- //location.href="carList.do";
- 
+
+	loacation.href="main.do"
+
 </script>
 </body>
 </html>
