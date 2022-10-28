@@ -49,9 +49,9 @@ public class MemberController {
 			String real = session.getServletContext().getRealPath("/resources/upload");
 			FileOutputStream fos = new FileOutputStream(new File(real+"/"+mfilename));
 			fos.write(member.getFile().getBytes());
-			fos.close();
+			fos.close();			
 			String encPass = bpe.encode(member.getPassword()); // 비밀번호 암호화
-			member.setPassword(encPass);
+			member.setPassword(encPass);			 
 			result = mbs.insert(member);
 		} else result = -1;  // 이미 있으니 입력하지마
 		model.addAttribute("result", result);
@@ -69,7 +69,7 @@ public class MemberController {
 		Member member2 = mbs.select(member.getId());
 		if (member2 == null || member2.getDel().equals("y")) result = -1; // 없는 id
     //		bpe.matches 두개다 암호화 한 상태로 같은 데이터인가 
-		else if (bpe.matches(member.getPassword(), member2.getPassword())) {
+		else if (bpe.matches(member.getPassword(), member2.getPassword())) {		
 			result = 1; // 성공 id와 password가 일치
 			session.setAttribute("id", member.getId());
 		}

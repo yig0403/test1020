@@ -9,7 +9,8 @@
 <body>
 <script type="text/javascript">
 
-	loacation.href="main.do"
+	// loacation.href="main.do"
+	location.href="loginForm.do"
 
 </script>
 </body>
